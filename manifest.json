@@ -1,0 +1,11 @@
+{
+	"name": "9anime Adblocker",
+	"description": "Block all ads on 9anime",
+	"version": "1.1",
+	"manifest_version": 2,
+	"permissions": ["activeTab", "tabs", "<all_urls>", "webRequest", "webRequestBlocking", "https://9anime.vc"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	}
+}
